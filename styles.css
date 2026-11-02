@@ -1,1 +1,38 @@
 /* your code */
+table {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: #ffffff;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+thead tr {
+  background-color: #2b6cb0;
+  color: #ffffff;
+  text-align: center;
+}
+
+thead th:first-child,
+tbody td:first-child {
+  text-align: left;
+  padding-left: 20px;
+}
+
+th, td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e2e8f0;
+  text-align: center;
+}
+
+tbody tr:nth-child {
+  background-color: #f8fafc;
+}
+
+tbody tr:hover {
+  background-color: #edf2f7;
+}
